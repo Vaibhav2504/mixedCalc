@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".primenumber"
+    android:orientation="vertical"
+    android:background="@color/lightgreen">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bonanovasc_bold"
+        android:text="PRIME NUMBERS PAGE"
+        android:textSize="30dp"
+        android:textColor="@color/reddish"
+        android:textAlignment="center"
+        android:layout_marginTop="29dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:text="Output: "
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:id="@+id/output"
+        android:fontFamily="@font/bonanovasc_bold"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/reddish"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="INPUT"
+            android:textColorHint="@color/cremish"
+            android:textSize="20dp"
+            android:fontFamily="@font/bonanovasc_italic"
+            android:id="@+id/input"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/cremish"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"
+            android:text="Back"
+            android:fontFamily="@font/bonanovasc_bold"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"
+            android:text="Submit"
+            android:fontFamily="@font/bonanovasc_bold"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
